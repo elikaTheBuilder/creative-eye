@@ -16,3 +16,6 @@ dialog .type-tile{background:var(--red);color:var(--paper)}
 dialog .gallery img{background:var(--project-panel,#e7e3d8)}
 dialog .feed-section>.feed-label,dialog .feed-header div span{color:var(--ink)}
 @media(prefers-reduced-motion:reduce){body,dialog,dialog::backdrop{transition:none}}
+/* Stack the two landscape films beside the third portrait film. */
+@media(min-width:501px){.gallery-motion{align-items:start}.gallery-motion>figure:nth-child(3){grid-column:1;grid-row:2 / span 2}.gallery-motion>figure:nth-child(4){grid-column:2;grid-row:2}.gallery-motion>figure:nth-child(5){grid-column:2;grid-row:3}}
+.original-feed{max-width:700px}.original-feed>a{display:block}.original-feed>a>img{width:100%;height:auto;object-fit:contain}.original-feed .feed-label{font-size:11px;line-height:1.6}

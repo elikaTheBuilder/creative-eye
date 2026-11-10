@@ -20,3 +20,7 @@ In the repository, open **Settings → Pages**. Under **Build and deployment**, 
 - `assets/`: images and videos. Videos load only when requested.
 
 Google Fonts is optional; system serif and sans-serif fallbacks are included. Project galleries use a native dialog with keyboard support. Reduced-motion preferences are respected.
+
+## Original social feed artwork
+
+The three `assets/*-original-feed.png` files preserve the finished layered compositions rendered from the original Canva portfolio. Keep these as complete artwork: do not replace their tiles with individual source images, recreate their typography, or recolour their patterns. The source portfolio is linked beside each feed.
